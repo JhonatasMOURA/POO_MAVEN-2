@@ -36,5 +36,5 @@ jobs:
           registry: docker.io
           dockerfile: dockerfile
           username: ${{ secrets.DOCKERHYB_USUARIO }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
+          password: ${{ secrets.DOCKERHUB_PASSWORD }}
    
