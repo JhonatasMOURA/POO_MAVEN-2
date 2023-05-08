@@ -31,10 +31,10 @@ jobs:
     - uses: mr-smithers-excellent/docker-build-push@v6
       name: Deploy Docker imagem
       with:
-          image: nisflei/aula_maven_f
+          image: jhonatasalves/aula_mavenf
           tags: 1.0
           registry: docker.io
           dockerfile: dockerfile
-          username: Nisflei
+          username: ${{ secrets.DOCKER }}
           password: ${{ secrets.DOCKER_PASSWORD }}
    
